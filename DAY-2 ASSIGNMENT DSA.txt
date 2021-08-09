@@ -1,5 +1,7 @@
-Day-2 Assignment
-Question 1
+Assignment Day - 2
+
+Question 1 -
+
 Find the output of the following code snippet: 
 int i =0, j = 0;
 int *p = &i, *q = &j;
@@ -7,7 +9,8 @@ q = p;
 *q = 2
 cout<<i<<" "<<j;
 
-Solution:
+Sol -
+
 #include <iostream>
 using namespace std;
 
@@ -21,5 +24,6 @@ int main() {
     return 0;
 }
 
-Output:
+
+Output -
 2 0
