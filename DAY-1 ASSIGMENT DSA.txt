@@ -1,0 +1,2 @@
+Answer 1. T(n)=O(n)
+Answer 2.  321123
