@@ -17,6 +17,7 @@ void deletion_end();
 void display();
 void search();
 
+
 void main()
 {
 	int choice;
@@ -72,6 +73,7 @@ void main()
 	getch();
 }
 
+
 void insertion_begin()
 {
 	int item;
@@ -90,6 +92,7 @@ void insertion_begin()
 		head = ptr;
 	}
 }
+
 
 void insertion_sl()
 {
@@ -123,6 +126,7 @@ void insertion_sl()
 	}
 }
 
+
 void insertion_end()
 {
 	int item;
@@ -148,6 +152,7 @@ void insertion_end()
 	}
 }
 
+
 void deletion_begin()
 {
 	struct node *ptr;
@@ -164,6 +169,7 @@ void deletion_begin()
 		free(ptr);
 	}
 }
+
 
 void deletion_sl()
 {
@@ -192,6 +198,7 @@ void deletion_sl()
 	}
 }
 
+
 void deletion_end()
 {
 	struct node *ptr,*ptr1;
@@ -214,6 +221,7 @@ void deletion_end()
 	}
 }
 
+
 void display()
 {
     struct node *ptr;  
@@ -232,6 +240,7 @@ void display()
         }  
     }              
 }
+
 
 void search()
 {
